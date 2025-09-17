@@ -26,4 +26,8 @@ export class AuthService {
       access_token: this.jwtService.sign(payload),
     };
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0c05cfa6af6e0182e30aaa2e921143658205d528

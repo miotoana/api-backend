@@ -19,6 +19,10 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js --dataSource typeorm.config.ts"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 0c05cfa6af6e0182e30aaa2e921143658205d528
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",

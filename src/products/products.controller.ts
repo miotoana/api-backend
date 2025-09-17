@@ -5,10 +5,17 @@ import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { ProductEntity } from './entities/product.entity';
+<<<<<<< HEAD
 import { Roles } from '../auth/decorators/roles.decorators';
 import { Role } from '../common/enum/role.enum';
 import { RolesGuard } from '../auth/decorators/roles.guard';
 import { GetUser } from '../auth/decorators/get-user-decorator';
+=======
+import { Roles } from '../auth/decorators/roles.decorator';
+import { Role } from '../common/enum/role.enum';
+import { RolesGuard } from '../auth/decorators/roles.guard';
+import { GetUser } from '../auth/decorators/get-user.decorator';
+>>>>>>> 0c05cfa6af6e0182e30aaa2e921143658205d528
 import type { UserPayload } from '../auth/interfaces/user-payload.interface'; // Usar 'import type'
 import { PaginationResponseDto } from '../common/dto/pagination-response.dto';
 
