@@ -14,12 +14,8 @@ import { AuthModule } from './auth/auth.module';
       host: 'localhost', // ou 127.0.0.1
       port: 3306,
       username: 'root',
-<<<<<<< HEAD
       password: '1234', // <-- MUITO IMPORTANTE: Coloque a senha que você configurou na instalação do MySQL
-=======
-      password: '123456', // <-- MUITO IMPORTANTE: Coloque a senha que você configurou na instalação do MySQL
->>>>>>> 0c05cfa6af6e0182e30aaa2e921143658205d528
-      database: 'products2', // O nome do banco que criamos no Workbench
+      database: 'products_2', // O nome do banco que criamos no Workbench
       entities: [__dirname + '/**/*.entity{.ts,.js}'], // Encontra as entidades automaticamente
       synchronize: false, // Apenas para desenvolvimento! Cria as tabelas automaticamente.
     }),
@@ -31,3 +27,6 @@ import { AuthModule } from './auth/auth.module';
   providers: [AppService],
 })
 export class AppModule {}
+
+
+
